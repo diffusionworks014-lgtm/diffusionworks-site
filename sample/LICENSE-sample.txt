@@ -1,0 +1,14 @@
+Diffusion Works - Semiconductor Equipment Termbase
+Evaluation sample (50 terms)
+
+Copyright (c) 2026 Diffusion Works. All rights reserved.
+
+This sample is provided for evaluation only. You may open it, import it into
+your own translation tools and test it. You may not sell, redistribute,
+publish or use it in commercial work, and you may not use it to train
+machine-learning models.
+
+The full termbase is licensed separately:
+https://diffusionworks014-lgtm.github.io/diffusionworks-site/
+
+Contact: diffusionworks014@gmail.com
