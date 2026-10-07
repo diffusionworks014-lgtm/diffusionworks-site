@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Semiconductor Equipment Termbase — Diffusion Works</title>
+<meta name="description" content="A verified six-language termbase for semiconductor manufacturing equipment: English, Japanese, Chinese, Korean, German and Spanish, with the translations not to use, sources and evidence for every term.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=Noto+Sans+JP:wght@400;600&family=Noto+Sans+KR:wght@400;600&family=Noto+Sans+SC:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#F2F4F6; --ink:#16202A; --slate:#5B6874; --rule:#D3D9DF;
+  --wafer:#2F45C8; --ng:#A8242E; --yellow:#FFD75E; --white:#FFFFFF;
+  --latin:"Archivo",system-ui,sans-serif;
+  --cjk:"Noto Sans JP","Noto Sans SC","Noto Sans KR",var(--latin);
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 1.0625rem/1.6 var(--latin);font-variation-settings:"wdth" 100}
+a{color:var(--wafer);text-underline-offset:.18em}
+a:focus-visible,button:focus-visible{outline:3px solid var(--wafer);outline-offset:3px}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+header.top{display:flex;justify-content:space-between;align-items:baseline;padding:28px 0 0}
+.mark{font-weight:700;font-variation-settings:"wdth" 112;letter-spacing:-.01em;font-size:1.05rem;color:var(--ink);text-decoration:none}
+.top nav a{margin-left:22px;color:var(--slate);text-decoration:none;font-size:.95rem}
+.top nav a:hover{color:var(--ink)}
+
+/* hero */
+.hero{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:56px;align-items:start;padding:72px 0 88px}
+h1{font-weight:800;font-variation-settings:"wdth" 70;font-size:clamp(2.6rem,6vw,4.6rem);line-height:.98;letter-spacing:-.02em;margin:0 0 28px}
+.lede{font-size:1.2rem;line-height:1.55;max-width:34ch;margin:0 0 28px;color:var(--ink)}
+.status{color:var(--slate);font-size:.95rem;max-width:42ch;margin:0}
+.actions{display:flex;flex-wrap:wrap;gap:12px;margin:0 0 28px}
+.btn{display:inline-block;padding:13px 20px;font-weight:600;text-decoration:none;border-radius:2px;border:2px solid var(--ink);color:var(--ink);background:transparent;font-size:1rem}
+.btn.primary{background:var(--ink);color:var(--white)}
+.btn:hover{background:var(--wafer);border-color:var(--wafer);color:var(--white)}
+
+/* specimen */
+.specimen{background:var(--white);border:1px solid var(--rule);border-radius:2px}
+.picker{display:flex;flex-wrap:wrap;gap:6px;padding:14px 16px;border-bottom:1px solid var(--rule)}
+.picker button{font:500 .9rem var(--latin);border:1px solid var(--rule);background:var(--paper);color:var(--ink);padding:6px 10px;border-radius:2px;cursor:pointer}
+.picker button[aria-pressed="true"]{background:var(--ink);color:var(--white);border-color:var(--ink)}
+.headword{padding:22px 20px 6px;background:linear-gradient(var(--yellow),var(--yellow)) left bottom/100% 14px no-repeat}
+.headword h2{margin:0;font-weight:700;font-variation-settings:"wdth" 88;font-size:1.9rem;line-height:1.1}
+.def{padding:14px 20px 4px;margin:0;color:var(--slate);font-size:.98rem;max-width:62ch}
+table{width:100%;border-collapse:collapse;margin:8px 0 0}
+th,td{text-align:left;padding:11px 20px;border-top:1px solid var(--rule);vertical-align:baseline}
+th{font-weight:600;color:var(--slate);font-size:.9rem;width:5.5em}
+td.use{font-family:var(--cjk);font-size:1.12rem;font-weight:600}
+td.avoid{font-family:var(--cjk);color:var(--ng);font-size:.98rem}
+td.avoid s{text-decoration-thickness:2px}
+thead th{border-top:0;padding-top:4px;padding-bottom:6px;font-size:.82rem}
+.src{padding:12px 20px 16px;margin:0;border-top:1px solid var(--rule);font-size:.88rem;color:var(--slate)}
+
+/* sections */
+section{padding:72px 0;border-top:1px solid var(--rule)}
+h3{font-weight:700;font-variation-settings:"wdth" 80;font-size:clamp(1.7rem,3.2vw,2.4rem);line-height:1.08;letter-spacing:-.01em;margin:0 0 20px;max-width:22ch}
+.cols{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:40px}
+.cols h4{margin:0 0 8px;font-size:1.08rem;font-weight:700}
+.cols p{margin:0;color:var(--slate);max-width:36ch}
+.intro{max-width:62ch;margin:0 0 40px}
+ol.steps{list-style:none;counter-reset:s;margin:0;padding:0;display:grid;gap:0;max-width:820px}
+ol.steps li{counter-increment:s;display:grid;grid-template-columns:3.2rem 1fr;gap:16px;padding:20px 0;border-top:1px solid var(--rule)}
+ol.steps li::before{content:counter(s);font-weight:800;font-variation-settings:"wdth" 70;font-size:2rem;line-height:1;color:var(--wafer)}
+ol.steps b{display:block;margin-bottom:4px}
+ol.steps span{color:var(--slate)}
+
+.pricing{width:100%;max-width:880px;border-collapse:collapse}
+.pricing th,.pricing td{padding:18px 16px 18px 0;border-top:1px solid var(--rule);vertical-align:top}
+.pricing th{width:auto;font-size:1.05rem;color:var(--ink);font-weight:700}
+.pricing .price{font-weight:800;font-variation-settings:"wdth" 80;font-size:1.5rem;white-space:nowrap}
+.pricing td:last-child{color:var(--slate)}
+.note{color:var(--slate);font-size:.95rem;max-width:66ch;margin:24px 0 0}
+
+.formats{display:flex;flex-wrap:wrap;gap:10px;margin:12px 0 0;padding:0;list-style:none}
+.formats li{border:1px solid var(--rule);background:var(--white);padding:8px 12px;font-size:.95rem}
+
+footer{padding:40px 0 56px;border-top:1px solid var(--rule);color:var(--slate);font-size:.9rem}
+footer p{margin:0 0 6px;max-width:70ch}
+
+@media (max-width:880px){
+  .hero{grid-template-columns:1fr;gap:40px;padding:48px 0 64px}
+  .cols{grid-template-columns:1fr;gap:28px}
+  .top nav a{margin-left:14px}
+}
+@media (max-width:520px){
+  .wrap{padding:0 16px}
+  .top nav{display:none}
+  th,td{padding:10px 14px}
+  .headword,.def,.src{padding-left:14px;padding-right:14px}
+  .pricing th,.pricing td{display:block;padding:4px 0}
+  .pricing tr{display:block;border-top:1px solid var(--rule);padding:14px 0}
+  .pricing th,.pricing td{border:0}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <a class="mark" href="#">Diffusion Works</a>
+    <nav aria-label="Sections"><a href="#what">What's inside</a><a href="#verify">How terms are verified</a><a href="#pricing">Pricing</a><a href="#sample">Sample</a></nav>
+  </header>
+
+  <main>
+    <div class="hero">
+      <div>
+        <h1>Semiconductor equipment terms, in six languages, with the ones not to use.</h1>
+        <p class="lede">A verified termbase for translators and technical writers working on fab equipment specifications, manuals and service documents.</p>
+        <div class="actions">
+          <a class="btn primary" href="sample/semi-equipment-sample-50.csv" download>Download the 50-term sample</a>
+          <a class="btn" href="#pricing">See pricing</a>
+        </div>
+        <p class="status">Version 1.0 is in preparation: about 2,000 terms across front-end, back-end, test, automation and facility systems. English, Japanese, Chinese (simplified), Korean, German and Spanish.</p>
+      </div>
+
+      <figure class="specimen" aria-label="Example entry from the termbase" style="margin:0">
+        <div class="picker" role="group" aria-label="Choose an example term" id="picker"></div>
+        <div class="headword"><h2 id="hw"></h2></div>
+        <p class="def" id="def"></p>
+        <table>
+          <thead><tr><th scope="col">Language</th><th scope="col">Use</th><th scope="col">Avoid</th></tr></thead>
+          <tbody id="rows"></tbody>
+        </table>
+        <p class="src">Source: <span id="src"></span></p>
+      </figure>
+    </div>
+
+    <section id="what">
+      <h3>What each entry gives you</h3>
+      <div class="cols">
+        <div><h4>The term engineers actually use</h4><p>One preferred rendering per language, plus accepted variants and the abbreviation where the industry uses one.</p></div>
+        <div><h4>The renderings to avoid</h4><p>Dictionary calques and false friends, each with a short reason. Translation tools import them as deprecated terms and can flag them in your text.</p></div>
+        <div><h4>A source and evidence</h4><p>An English definition written for this termbase, the standard or reference it rests on, and the public documents that show each translation in use.</p></div>
+      </div>
+    </section>
+
+    <section id="verify">
+      <h3>How terms are verified</h3>
+      <p class="intro">No term is included because it sounds right. Each one passes the same checks, and terms that fail any of them are held back for a later update rather than guessed.</p>
+      <ol class="steps">
+        <li><div><b>Sourced headword</b><span>Every English headword is tied to a SEMI, ISO, IEC, JIS or JEDEC standard, an industry glossary, or a recognised technical reference.</span></div></li>
+        <li><div><b>Blind back-translation</b><span>Each translation is translated back to English by a separate pass that has not seen the original, and must return the same concept.</span></div></li>
+        <li><div><b>Definition match</b><span>Each translation is checked against the definition, so a term for the whole tool is not given for a single part, or the reverse.</span></div></li>
+        <li><div><b>Public evidence</b><span>The translation must appear in a national standard, in the published documents of at least two unrelated equipment makers, in an industry-body glossary, or across several journals in that language.</span></div></li>
+      </ol>
+    </section>
+
+    <section id="pricing">
+      <h3>Pricing</h3>
+      <table class="pricing">
+        <tbody>
+          <tr><th scope="row">Sample</th><td class="price">Free</td><td>50 terms in CSV and TBX, for evaluation. Not for commercial use.</td></tr>
+          <tr><th scope="row">Pro</th><td class="price">$299</td><td>The full termbase for one person, with one year of updates. CSV, TBX and JSON. Founding price of $199 for the first 20 buyers.</td></tr>
+          <tr><th scope="row">Team</th><td class="price">From $1,000 / year</td><td>For translation companies and documentation teams sharing the termbase inside one organisation, with quarterly updates.</td></tr>
+          <tr><th scope="row">API</th><td class="price">Planned</td><td>Term lookup and batch checking for translation and LLM workflows, priced monthly. Details after launch.</td></tr>
+        </tbody>
+      </table>
+      <p class="note">Purchases will be handled by Lemon Squeezy as merchant of record, which collects any applicable sales tax or VAT. The termbase is a reference for professionals; it does not translate documents and is not a substitute for review of safety-critical text.</p>
+    </section>
+
+    <section id="sample">
+      <h3>Try it in your own tools</h3>
+      <p class="intro">The sample has the same structure as the full termbase. Import the TBX into Trados, memoQ or Phrase to see preferred and deprecated terms, or open the CSV in a spreadsheet.</p>
+      <ul class="formats">
+        <li><a href="sample/semi-equipment-sample-50.csv" download>Sample, CSV</a></li>
+        <li><a href="sample/semi-equipment-sample-50.tbx" download>Sample, TBX (ISO 30042)</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>Diffusion Works, Japan. A terminology reference for the semiconductor equipment industry.</p>
+    <p>Definitions are original. Standards are cited by number and title only; no standard text is reproduced.</p>
+  </footer>
+</div>
+
+<script>
+const T=[
+ {en:"emergency off",def:"A hard-wired button and circuit that removes hazardous power from a tool at once, independently of the control software. Distinct from a controlled emergency stop.",
+  t:{ja:"EMO",zh:"紧急关断",ko:"EMO",de:"Not-Aus",es:"desconexión de emergencia"},
+  n:{ja:"非常停止",zh:"紧急停止",ko:"비상정지",de:"Not-Halt",es:"parada de emergencia"},
+  s:"SEMI E20; JIS B 9960-33"},
+ {en:"cross-contamination",def:"Unintended transfer of chemical species, particles or metallic impurities from one wafer, bath or chamber to another.",
+  t:{ja:"クロスコンタミネーション",zh:"交叉污染",ko:"교차 오염",de:"Kreuzkontamination",es:"contaminación cruzada"},
+  n:{ja:"二次汚染",zh:"互相污染",ko:"상호 오염",de:"Überkreuzverschmutzung",es:"contaminación mutua"},
+  s:"Kern (ed.), Handbook of Semiconductor Wafer Cleaning Technology; JIS Z 8122"},
+ {en:"atomic layer deposition",def:"A thin-film method in which precursor gases are pulsed alternately, each reacting with the surface in a self-limiting way, so the film grows about one atomic layer per cycle.",
+  t:{ja:"原子層堆積",zh:"原子层沉积",ko:"원자층 증착",de:"Atomlagenabscheidung",es:"deposición de capas atómicas"},
+  n:{ja:"原子層蒸着",zh:"原子层蒸镀",ko:"원자층 침전",de:"Atomschichtablagerung",es:"sedimentación de capas atómicas"},
+  s:"George, Chem. Rev. 110 (2010); SEAJ glossary"},
+ {en:"overlay error",def:"The positional offset between a pattern in the current layer and a reference layer, measured at overlay marks and reported as x and y vectors across the wafer.",
+  t:{ja:"オーバーレイ誤差",zh:"套刻误差",ko:"오버레이 오차",de:"Overlay-Fehler",es:"error de overlay"},
+  n:{ja:"重複誤差",zh:"覆盖误差"},
+  s:"SEMI P35 — Terminology for Microlithography Metrology"},
+ {en:"photoresist residue",def:"Resist left on the wafer after stripping or ashing, often a hardened crust from etch or implant, removed by additional plasma or wet cleans.",
+  t:{ja:"レジスト残渣",zh:"光刻胶残留",ko:"PR 잔사",de:"Fotolackrückstand",es:"residuo de fotorresina"},
+  n:{ja:"感光剤残留物",zh:"感光剂残留"},
+  s:"Wolf and Tauber, Silicon Processing for the VLSI Era, Vol. 1"},
+ {en:"pressure differential",def:"The difference in static pressure between two spaces, such as a cleanroom and its corridor, held positive to keep particles out.",
+  t:{ja:"差圧",zh:"压差",ko:"차압",de:"Differenzdruck",es:"presión diferencial"},
+  n:{ja:"圧力差分"},
+  s:"ISO 14644-3; JIS B 9917-3"}
+];
+const L=[["ja","Japanese"],["zh","Chinese"],["ko","Korean"],["de","German"],["es","Spanish"]];
+const pk=document.getElementById("picker");
+function show(i){
+  const x=T[i];
+  document.getElementById("hw").textContent=x.en;
+  document.getElementById("def").textContent=x.def;
+  document.getElementById("src").textContent=x.s;
+  const tb=document.getElementById("rows"); tb.innerHTML="";
+  L.forEach(([k,name])=>{
+    const tr=document.createElement("tr");
+    const th=document.createElement("th"); th.scope="row"; th.textContent=name;
+    const u=document.createElement("td"); u.className="use"; u.lang=k; u.textContent=x.t[k];
+    const a=document.createElement("td"); a.className="avoid"; a.lang=k;
+    if(x.n[k]){const s=document.createElement("s"); s.textContent=x.n[k]; a.appendChild(s);} else {a.textContent="—"; a.style.color="var(--rule)";}
+    tr.append(th,u,a); tb.appendChild(tr);
+  });
+  [...pk.children].forEach((b,j)=>b.setAttribute("aria-pressed",j===i?"true":"false"));
+}
+T.forEach((x,i)=>{const b=document.createElement("button");b.type="button";b.textContent=x.en;b.onclick=()=>show(i);pk.appendChild(b)});
+show(0);
+</script>
+</body>
+</html>
