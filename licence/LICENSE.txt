@@ -32,9 +32,9 @@ the purchase.
   Pro   One named individual. You may install the Termbase on any number of
         devices that you personally use.
   Team  One organisation (a company or a public body), for use by up to ten
-        named authorised users. Authorised users may be employees or
-        contractors working solely on the organisation's behalf; contractors
-        count towards the ten. You may replace an authorised user when a
+        named authorised users. Authorised users may be employees, or
+        contractors who use the Termbase only for work they do for the
+        organisation; contractors count towards the ten. You may replace an authorised user when a
         person leaves the organisation or the work, provided that the
         former user's access is removed and the copies in that person's
         possession are deleted. The Termbase may be installed on the
@@ -128,8 +128,9 @@ means the Pro licensee or, for Team, one of the named users.
   remain the property of their publishers. The Termbase cites them by
   number and title and does not include any substantial part of their
   text. This licence grants no rights in those third-party materials.
-  Company and product names are trademarks of their owners and appear
-  only to identify sources.
+  Company and product names are trademarks of their owners. They appear
+  to identify sources or to describe how a term is used, and imply no
+  affiliation with or endorsement by those companies.
 
 
 6. No warranty
@@ -148,8 +149,9 @@ means the Pro licensee or, for Team, one of the named users.
   for indirect, incidental or consequential loss, or for loss of profit,
   data or business, arising from the use of the Termbase, and its total
   liability under this licence is limited to the amount you paid for the
-  licence (for Team: the fees paid for the twelve months preceding the
-  event giving rise to the claim).
+  licence (for Team: the fees paid for the subscription term in which
+  the event giving rise to the claim occurred or, if the subscription has
+  ended, the fees paid for the last subscription term).
   These exclusions and limitations apply only to liability arising from
   ordinary negligence. They do not apply to liability arising from wilful
   misconduct or gross negligence of Diffusion Works or its
