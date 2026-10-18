@@ -34,11 +34,11 @@ the purchase.
   Team  One organisation (a company or a public body), for use by up to ten
         named authorised users. Authorised users may be employees, or
         contractors who use the Termbase only for work they do for the
-        organisation; contractors count towards the ten. You may replace
-        an authorised user when a person leaves the organisation or the
-        work, provided that the former user's access is removed and the
-        copies in that person's possession are deleted. The Termbase may be installed on the
-        organisation's shared termbase server or CAT tool server, provided
+        organisation; contractors count towards the ten. You may replace an
+        authorised user when a person leaves the organisation or the work,
+        provided that the former user's access is removed and the copies in
+        that person's possession are deleted. The Termbase may be installed on
+        the organisation's shared termbase server or CAT tool server, provided
         that access is limited to the authorised users. For more users or an
         organisation-wide licence, contact us for a quote.
 The licence type is the one shown on your order. "Authorised user" below
