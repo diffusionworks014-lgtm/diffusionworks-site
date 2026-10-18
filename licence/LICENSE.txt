@@ -1,0 +1,207 @@
+Diffusion Works — Semiconductor Equipment Termbase
+LICENCE AGREEMENT
+==========================================================================
+Licence version 1.0 — effective 19 October 2026
+
+This licence applies to the Semiconductor Equipment Termbase files you
+purchased (CSV, TBX, JSON, README and any updates delivered to you under
+that purchase), referred to below as "the Termbase". The full text of this
+licence is published on the Diffusion Works website before purchase. By
+downloading or using the Termbase you accept these terms.
+The version of this licence that applied when you purchased governs the
+Termbase files supplied under that purchase. Later changes to the licence
+do not apply to those files unless you agree to them or applicable law
+provides otherwise.
+
+Licensor: Diffusion Works, Japan — a sole proprietorship trading under that
+          name. The "Licensor information" page of the Diffusion Works
+          website identifies the licensor, and the proprietor's legal name
+          and address are confirmed in writing, without delay, on request
+          at the contact address, so that the party to this licence can be
+          identified at any time.
+Contact:  diffusionworks014@gmail.com
+Website:  https://diffusionworks014-lgtm.github.io/diffusionworks-site/
+The purchase transaction and payment are handled by the online store named
+at checkout, which acts as merchant of record under its own buyer terms.
+This licence governs your use of the Termbase; the store's terms govern
+the purchase.
+
+
+1. Licence types
+--------------------------------------------------------------------------
+  Pro   One named individual. You may install the Termbase on any number of
+        devices that you personally use.
+  Team  One organisation (a company or a public body), for use by up to ten
+        named authorised users. Authorised users may be employees or
+        contractors working solely on the organisation's behalf; contractors
+        count towards the ten. You may replace an authorised user when a
+        person leaves the organisation or the work, provided that the
+        former user's access is removed and the copies in that person's
+        possession are deleted. The Termbase may be installed on the
+        organisation's shared termbase server or CAT tool server, provided
+        that access is limited to the authorised users. For more users or an
+        organisation-wide licence, contact us for a quote.
+The licence type is the one shown on your order. "Authorised user" below
+means the Pro licensee or, for Team, one of the named users.
+
+
+2. What you may do
+--------------------------------------------------------------------------
+  a) Use the Termbase in your own work, including paid translation, writing,
+     editing and review work for clients.
+  b) Import it into CAT tools, terminology systems, spreadsheets and your
+     own scripts, and convert it between formats for that purpose.
+  c) Use it in prompts, retrieval (RAG) or glossaries for large language
+     models in your own workflow, so that the model follows the terms.
+     Generating embeddings or search indexes solely for such retrieval is
+     allowed and is not training under 3(c).
+  d) Use individual terms in the translations, documents and other ordinary
+     work products you create under (a), and deliver those work products to
+     your clients. This licence does not determine who owns those work
+     products and does not restrict their use, except that the uses
+     prohibited in Section 3 remain prohibited.
+  e) Process the Termbase in third-party CAT, terminology or AI services
+     (including cloud services) solely for the work permitted by this
+     licence, provided that access is limited to authorised users and to
+     the provider's personnel as needed to run the service, and that the
+     provider's terms do not allow it to use the Termbase to train or
+     fine-tune models, to reuse it for its own purposes or to disclose it
+     to other customers. Whether a service qualifies depends on the plan
+     and settings you actually use, not on the name of the service; you
+     are responsible for choosing a qualifying plan and settings. Copies
+     held by such a provider remain subject to this licence. This is an
+     exception to 3(a).
+  f) Keep backup copies.
+
+
+3. What you may not do
+--------------------------------------------------------------------------
+  a) Give, sell, lend, publish or otherwise make the Termbase, or any
+     substantial part of it, available to anyone who is not an authorised
+     user under your licence. This includes uploading it to public
+     repositories, to shared drives open to others, or to public CAT-tool
+     term banks, and includes access through shared servers by people who
+     are not authorised users.
+  b) Use the Termbase to create or improve a glossary, dictionary,
+     termbase, terminology database or API offered to others, whether free
+     or paid. Exception: you may include the individual terms and
+     renderings needed for a specific client project in a project glossary
+     delivered to that client, provided that (i) only the entries needed
+     for that project are included — not a bulk copy of the Termbase, and
+     not the Termbase split into parts over several deliveries; (ii) you
+     tell the client that those entries may be used only for that project
+     and may not be passed on to third parties, and the client agrees.
+  c) Use the Termbase, in whole or in part, to train or fine-tune a
+     machine-learning model, or as a dataset for benchmarking or
+     comparative evaluation of models, including models used only
+     internally. Ordinary review of translations and other outputs in the
+     workflow permitted by Section 2 is not evaluation of a model.
+  d) Remove or alter the copyright notice or this licence.
+  Short quotations of individual entries (for example, citing a term and its
+  rendering in a discussion or a style guide) are allowed.
+
+
+4. Updates
+--------------------------------------------------------------------------
+  Pro   Updates released within one year of the purchase date.
+  Team  Updates released during the subscription term. We aim to release
+        an update each quarter; in a quarter with no corrections or
+        additions, no update is issued.
+  Updates are delivered as a complete new file set. The subscription period,
+  billing, renewal and cancellation of a Team licence are as shown at
+  checkout and in the store's buyer terms.
+  After the update period or the subscription ends, you may keep using the
+  versions you received while it was in force, under these terms and
+  within the scope and user limit you purchased, without time limit.
+  This does not apply where the licence has ended under Section 9.
+
+
+5. Ownership
+--------------------------------------------------------------------------
+  Copyright (c) 2026 Diffusion Works, in respect of the rights it owns in
+  the Termbase: its original content (definitions, usage notes, reasons for
+  avoided renderings) and its selection and arrangement of the material.
+  No exclusive right is claimed in individual terms or facts as such. All
+  rights not expressly granted are reserved. You receive a licence to use
+  the Termbase, not a transfer of intellectual property rights.
+  Standards, glossaries, catalogues and other documents cited as sources
+  remain the property of their publishers. The Termbase cites them by
+  number and title and does not include any substantial part of their
+  text. This licence grants no rights in those third-party materials.
+  Company and product names are trademarks of their owners and appear
+  only to identify sources.
+
+
+6. No warranty
+--------------------------------------------------------------------------
+  The Termbase is a reference for professionals and is provided "as is".
+  Diffusion Works takes reasonable care in preparing and checking every
+  entry against public sources, but does not warrant that the Termbase is
+  complete, error-free or suitable for a particular purpose. It is not a
+  substitute for review by a qualified person, in particular for
+  safety-critical text.
+
+
+7. Limitation of liability
+--------------------------------------------------------------------------
+  To the extent permitted by applicable law, Diffusion Works is not liable
+  for indirect, incidental or consequential loss, or for loss of profit,
+  data or business, arising from the use of the Termbase, and its total
+  liability under this licence is limited to the amount you paid for the
+  licence (for Team: the fees paid for the twelve months preceding the
+  event giving rise to the claim).
+  These exclusions and limitations apply only to liability arising from
+  ordinary negligence. They do not apply to liability arising from wilful
+  misconduct or gross negligence of Diffusion Works or its
+  representatives, or to any liability that cannot be excluded or limited
+  by law.
+
+
+8. Refunds
+--------------------------------------------------------------------------
+  If the files are defective or materially not as described, and you tell us
+  at the contact address above within 14 days of purchase, we will refund
+  the full purchase price. Refunds are processed through the store where you
+  purchased, under its buyer terms. This policy does not restrict any refund
+  the store may grant under its own terms, nor any statutory rights that
+  apply to you.
+  If the full purchase price of a licence is refunded and the purchase is
+  cancelled, the licence ends and Section 9 applies to the files. A partial
+  refund, or a refund of one subscription charge, does not by itself end
+  rights already acquired.
+
+
+9. Termination
+--------------------------------------------------------------------------
+  If you break these terms, we will notify you. A minor breach alone does
+  not end your licence.
+  - For a material breach that can be remedied, your licence ends if the
+    breach is not remedied within 14 days after you receive the notice.
+  - For a breach that spreads the Termbase (for example, publication or
+    making it available to people who are not authorised users), you must
+    stop the breach immediately on receiving the notice; the 14-day
+    period applies to the remaining remedy (removal of copies).
+  - For a material breach that cannot be remedied (for example, use of the
+    Termbase to train a model), your licence ends on receipt of the
+    notice.
+  When the licence ends, you must delete all copies of the Termbase,
+  including converted versions, retrieval indexes built from it and copies
+  held by service providers on your behalf, except where applicable law
+  requires retention. You need not delete ordinary work products created
+  under 2(d). Sections 3, 5 to 7, 9 and 10 survive termination.
+
+
+10. Governing law and jurisdiction
+--------------------------------------------------------------------------
+  This licence is governed by the laws of Japan. The Tokyo District Court
+  has exclusive jurisdiction in the first instance over any dispute arising
+  from it. This does not deprive a consumer of mandatory protections, or
+  override mandatory rules on jurisdiction, under the law that applies to
+  that consumer. This Section concerns disputes under this licence with
+  Diffusion Works; the purchase transaction remains subject to the store's
+  terms.
+  If any provision is held invalid, the rest remains in effect.
+  A Japanese translation of this licence is supplied as LICENSE_ja.txt for
+  convenience. If the two versions differ, this English version prevails.
+
+Diffusion Works, 2026
