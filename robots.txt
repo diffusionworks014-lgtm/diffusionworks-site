@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://diffusionworks014-lgtm.github.io/diffusionworks-site/sitemap.xml
