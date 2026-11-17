@@ -23,8 +23,9 @@ a{color:var(--wafer);text-underline-offset:.18em}
 a:focus-visible,button:focus-visible{outline:3px solid var(--wafer);outline-offset:3px}
 .wrap{max-width:1120px;margin:0 auto;padding:0 24px}
 header.top{display:flex;justify-content:space-between;align-items:baseline;padding:28px 0 0}
-.mark{font-weight:700;font-variation-settings:"wdth" 112;letter-spacing:-.01em;font-size:1.05rem;color:var(--ink);text-decoration:none}
-.top nav a{margin-left:22px;color:var(--slate);text-decoration:none;font-size:.95rem}
+.mark{font-weight:700;font-variation-settings:"wdth" 112;letter-spacing:-.01em;font-size:1.05rem;color:var(--ink);text-decoration:none;white-space:nowrap}
+.top nav{text-align:right;margin-left:24px}
+.top nav a{display:inline-block;margin-left:16px;color:var(--slate);text-decoration:none;font-size:.9rem;white-space:nowrap}
 .top nav a:hover{color:var(--ink)}
 
 /* hero */
@@ -101,7 +102,7 @@ footer p{margin:0 0 6px;max-width:70ch}
 <div class="wrap">
   <header class="top">
     <a class="mark" href="#">Diffusion Works</a>
-    <nav aria-label="Sections"><a href="#what">What's inside</a><a href="#verify">How terms are verified</a><a href="#pricing">Pricing</a><a href="#sample">Sample</a><a href="terms/">Terms</a><a href="machine-tools-robots/">Machine tools &amp; robots</a><a href="lithium-ion-battery/">Battery manufacturing</a></nav>
+    <nav aria-label="Sections"><a href="#what">What's inside</a><a href="#verify">How terms are verified</a><a href="#pricing">Pricing</a><a href="#sample">Sample</a><a href="terms/">Terms</a><a href="machine-tools-robots/">Machine tools &amp; robots</a><a href="lithium-ion-battery/">Battery manufacturing</a><a href="plastics-molding/">Plastics molding</a></nav>
   </header>
 
   <main>
@@ -128,14 +129,14 @@ footer p{margin:0 0 6px;max-width:70ch}
       </figure>
     </div>
 
-    <p class="note" style="margin:0 0 40px">Also available: <a href="machine-tools-robots/">Machine Tools &amp; Industrial Robots Termbase</a> (1,814 terms) and, new, <a href="lithium-ion-battery/">Lithium-ion Battery Manufacturing Termbase</a> (1,801 terms), in the same six languages with the same verification.</p>
+    <p class="note" style="margin:0 0 40px">Also available: <a href="machine-tools-robots/">Machine Tools &amp; Industrial Robots Termbase</a> (1,814 terms), <a href="lithium-ion-battery/">Lithium-ion Battery Manufacturing Termbase</a> (1,801 terms) and, new, <a href="plastics-molding/">Injection Molding &amp; Plastics Processing Termbase</a> (1,904 terms), in the same six languages with the same verification.</p>
 
     <section id="what">
       <h3>What each entry gives you</h3>
       <div class="cols">
         <div><h4>The term engineers actually use</h4><p>One preferred rendering per language, plus accepted variants and the abbreviation where the industry uses one.</p></div>
         <div><h4>The renderings to avoid</h4><p>Dictionary calques and false friends, each with a short reason. They carry the TBX deprecated status, which translation tools that read it can show as forbidden terms and flag in your text.</p></div>
-        <div><h4>A source and evidence</h4><p>An English definition written for this termbase, the standard or reference it rests on, and the public documents that show each translation in use.</p></div>
+        <div><h4>A source and evidence</h4><p>An English definition written for this termbase, the standard or reference it rests on, and the public documents that show the Japanese translation in use.</p></div>
       </div>
     </section>
 
@@ -146,7 +147,7 @@ footer p{margin:0 0 6px;max-width:70ch}
         <li><div><b>Sourced headword</b><span>Every English headword is tied to a SEMI, ISO, IEC, JIS or JEDEC standard, an industry glossary, or a recognised technical reference.</span></div></li>
         <li><div><b>Blind back-translation</b><span>Each translation is translated back to English by a separate pass that has not seen the original, and must return the same concept.</span></div></li>
         <li><div><b>Definition match</b><span>Each translation is checked against the definition, so a term for the whole tool is not given for a single part, or the reverse.</span></div></li>
-        <li><div><b>Public evidence</b><span>The translation must appear in a national standard, in the published documents of at least two unrelated equipment makers, in an industry-body glossary, or across several journals in that language.</span></div></li>
+        <li><div><b>Public evidence</b><span>The Japanese translation must appear in a national standard, in the published documents of at least two unrelated equipment makers, in an industry-body glossary, or across several Japanese journals.</span></div></li>
       </ol>
     </section>
 
@@ -178,7 +179,7 @@ footer p{margin:0 0 6px;max-width:70ch}
     <p>Diffusion Works, Japan. Terminology references for the semiconductor equipment and machine tool industries.</p>
     <p>Contact: <a href="mailto:diffusionworks014@gmail.com">diffusionworks014@gmail.com</a>. Corrections to any term are welcome and are included in the next update.</p>
     <p>Definitions are original. Standards are cited by number and title only; no standard text is reproduced.</p>
-    <p><a href="terms/">Browse 250 terms online</a> · <a href="machine-tools-robots/">Machine Tools &amp; Industrial Robots Termbase</a> · <a href="lithium-ion-battery/">Lithium-ion Battery Manufacturing Termbase</a> · <a href="licence/LICENSE.txt">Licence</a> · <a href="licence/LICENSE_ja.txt">使用許諾（日本語訳）</a> · <a href="licensor.html">Licensor information</a></p>
+    <p><a href="terms/">Browse 250 terms online</a> · <a href="machine-tools-robots/">Machine Tools &amp; Industrial Robots Termbase</a> · <a href="lithium-ion-battery/">Lithium-ion Battery Manufacturing Termbase</a> · <a href="plastics-molding/">Injection Molding &amp; Plastics Processing Termbase</a> · <a href="licence/LICENSE.txt">Licence</a> · <a href="licence/LICENSE_ja.txt">使用許諾（日本語訳）</a> · <a href="licensor.html">Licensor information</a></p>
   </footer>
 </div>
 
