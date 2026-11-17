@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Injection Molding &amp; Plastics Processing Termbase — Diffusion Works</title>
+<meta name="description" content="A verified six-language termbase for injection molding and plastics processing: English, Japanese, Chinese, Korean, German and Spanish, with the translations not to use where errors really occur, sources and evidence for every term.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=Noto+Sans+JP:wght@400;600&family=Noto+Sans+KR:wght@400;600&family=Noto+Sans+SC:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#F2F4F6; --ink:#16202A; --slate:#5B6874; --rule:#D3D9DF;
+  --wafer:#2F45C8; --ng:#A8242E; --yellow:#FFD75E; --white:#FFFFFF;
+  --latin:"Archivo",system-ui,sans-serif;
+  --cjk:"Noto Sans JP","Noto Sans SC","Noto Sans KR",var(--latin);
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 1.0625rem/1.6 var(--latin);font-variation-settings:"wdth" 100}
+a{color:var(--wafer);text-underline-offset:.18em}
+a:focus-visible,button:focus-visible{outline:3px solid var(--wafer);outline-offset:3px}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+header.top{display:flex;justify-content:space-between;align-items:baseline;padding:28px 0 0}
+.mark{font-weight:700;font-variation-settings:"wdth" 112;letter-spacing:-.01em;font-size:1.05rem;color:var(--ink);text-decoration:none;white-space:nowrap}
+.top nav{text-align:right;margin-left:24px}
+.top nav a{display:inline-block;margin-left:16px;color:var(--slate);text-decoration:none;font-size:.9rem;white-space:nowrap}
+.top nav a:hover{color:var(--ink)}
+
+/* hero */
+.hero{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:56px;align-items:start;padding:72px 0 88px}
+h1{font-weight:800;font-variation-settings:"wdth" 70;font-size:clamp(2.6rem,6vw,4.6rem);line-height:.98;letter-spacing:-.02em;margin:0 0 28px}
+.lede{font-size:1.2rem;line-height:1.55;max-width:34ch;margin:0 0 28px;color:var(--ink)}
+.status{color:var(--slate);font-size:.95rem;max-width:42ch;margin:0}
+.actions{display:flex;flex-wrap:wrap;gap:12px;margin:0 0 28px}
+.btn{display:inline-block;padding:13px 20px;font-weight:600;text-decoration:none;border-radius:2px;border:2px solid var(--ink);color:var(--ink);background:transparent;font-size:1rem}
+.btn.primary{background:var(--ink);color:var(--white)}
+.btn:hover{background:var(--wafer);border-color:var(--wafer);color:var(--white)}
+
+/* specimen */
+.specimen{background:var(--white);border:1px solid var(--rule);border-radius:2px}
+.picker{display:flex;flex-wrap:wrap;gap:6px;padding:14px 16px;border-bottom:1px solid var(--rule)}
+.picker button{font:500 .9rem var(--latin);border:1px solid var(--rule);background:var(--paper);color:var(--ink);padding:6px 10px;border-radius:2px;cursor:pointer}
+.picker button[aria-pressed="true"]{background:var(--ink);color:var(--white);border-color:var(--ink)}
+.headword{padding:22px 20px 6px;background:linear-gradient(var(--yellow),var(--yellow)) left bottom/100% 14px no-repeat}
+.headword h2{margin:0;font-weight:700;font-variation-settings:"wdth" 88;font-size:1.9rem;line-height:1.1}
+.def{padding:14px 20px 4px;margin:0;color:var(--slate);font-size:.98rem;max-width:62ch}
+table{width:100%;border-collapse:collapse;margin:8px 0 0}
+th,td{text-align:left;padding:11px 20px;border-top:1px solid var(--rule);vertical-align:baseline}
+th{font-weight:600;color:var(--slate);font-size:.9rem;width:5.5em}
+td.use{overflow-wrap:anywhere;font-family:var(--cjk);font-size:1.12rem;font-weight:600}
+td.avoid{overflow-wrap:anywhere;font-family:var(--cjk);color:var(--ng);font-size:.98rem}
+td.avoid s{text-decoration-thickness:2px}
+thead th{border-top:0;padding-top:4px;padding-bottom:6px;font-size:.82rem}
+.src{padding:12px 20px 16px;margin:0;border-top:1px solid var(--rule);font-size:.88rem;color:var(--slate)}
+
+/* sections */
+section{padding:72px 0;border-top:1px solid var(--rule)}
+h3{font-weight:700;font-variation-settings:"wdth" 80;font-size:clamp(1.7rem,3.2vw,2.4rem);line-height:1.08;letter-spacing:-.01em;margin:0 0 20px;max-width:22ch}
+.cols{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:40px}
+.cols h4{margin:0 0 8px;font-size:1.08rem;font-weight:700}
+.cols p{margin:0;color:var(--slate);max-width:36ch}
+.intro{max-width:62ch;margin:0 0 40px}
+ol.steps{list-style:none;counter-reset:s;margin:0;padding:0;display:grid;gap:0;max-width:820px}
+ol.steps li{counter-increment:s;display:grid;grid-template-columns:3.2rem 1fr;gap:16px;padding:20px 0;border-top:1px solid var(--rule)}
+ol.steps li::before{content:counter(s);font-weight:800;font-variation-settings:"wdth" 70;font-size:2rem;line-height:1;color:var(--wafer)}
+ol.steps b{display:block;margin-bottom:4px}
+ol.steps span{color:var(--slate)}
+
+.pricing{width:100%;max-width:880px;border-collapse:collapse}
+.pricing th,.pricing td{padding:18px 16px 18px 0;border-top:1px solid var(--rule);vertical-align:top}
+.pricing th{width:auto;font-size:1.05rem;color:var(--ink);font-weight:700}
+.pricing .price{font-weight:800;font-variation-settings:"wdth" 80;font-size:1.5rem;white-space:nowrap}
+.pricing td:last-child{color:var(--slate)}
+.note{color:var(--slate);font-size:.95rem;max-width:66ch;margin:24px 0 0}
+
+.coverage{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:40px;max-width:880px}
+.coverage li{display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:9px 0;border-top:1px solid var(--rule)}
+.coverage li span small{display:block;font-family:var(--cjk);color:var(--slate);font-size:.85rem}
+.coverage li b{font-variant-numeric:tabular-nums;font-weight:700}
+.cov-h{margin:56px 0 12px;font-size:1.08rem;font-weight:700}
+.formats{display:flex;flex-wrap:wrap;gap:10px;margin:12px 0 0;padding:0;list-style:none}
+.formats li{border:1px solid var(--rule);background:var(--white);padding:8px 12px;font-size:.95rem}
+
+footer{padding:40px 0 56px;border-top:1px solid var(--rule);color:var(--slate);font-size:.9rem}
+footer p{margin:0 0 6px;max-width:70ch}
+
+@media (max-width:880px){
+  .hero{grid-template-columns:minmax(0,1fr);gap:40px;padding:48px 0 64px}
+  .cols{grid-template-columns:1fr;gap:28px}
+  .coverage{grid-template-columns:minmax(0,1fr)}
+  .top nav a{margin-left:14px}
+}
+@media (max-width:520px){
+  .wrap{padding:0 16px}
+  .top nav{display:none}
+  th,td{padding:10px 8px}
+  th:first-child{padding-left:14px}
+  td:last-child{padding-right:14px}
+  td.use,td.avoid{overflow-wrap:break-word;-webkit-hyphens:auto;hyphens:auto}
+  td.use{font-size:1.02rem}
+  .headword,.def,.src{padding-left:14px;padding-right:14px}
+  .pricing th,.pricing td{display:block;padding:4px 0}
+  .pricing tr{display:block;border-top:1px solid var(--rule);padding:14px 0}
+  .pricing th,.pricing td{border:0}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <a class="mark" href="../">Diffusion Works</a>
+    <nav aria-label="Sections"><a href="#what">What's inside</a><a href="#verify">How terms are verified</a><a href="#pricing">Pricing</a><a href="#sample">Sample</a><a href="../">Semiconductor termbase</a><a href="../machine-tools-robots/">Machine tools &amp; robots</a><a href="../lithium-ion-battery/">Battery manufacturing</a></nav>
+  </header>
+
+  <main>
+    <div class="hero">
+      <div>
+        <h1>Injection molding terms, in six languages, with the ones not to use.</h1>
+        <p class="lede">A verified termbase for translators and technical writers working on injection molding and plastics processing: injection molding machine manuals, mold specifications, process sheets, defect reports, material datasheets, test reports and plant safety documents.</p>
+        <div class="actions">
+          <a class="btn primary" href="../sample/injection-molding-plastics-sample-50.csv" download>Download the 50-term sample</a>
+          <a class="btn" href="https://diffusionworks.gumroad.com/l/plastics-termbase?offer_code=PLASFOUNDING20">Buy Pro — $199 launch price</a>
+        </div>
+        <p class="status">Version 1.0: 1,904 terms across polymers and materials, the injection and clamping units, mold design, structure and temperature control, sprues, runners, gates and hot runners, molding conditions and defects, quality and testing, extrusion, blow molding, thermoforming and compression molding, special molding processes, secondary operations, peripherals, plant safety and recycling. English, Japanese, Chinese (simplified), Korean, German and Spanish. Japanese title: <span lang="ja">射出成形・プラスチック加工 多言語用語集</span>.</p>
+      </div>
+
+      <figure class="specimen" aria-label="Example entry from the termbase" style="margin:0">
+        <div class="picker" role="group" aria-label="Choose an example term" id="picker"></div>
+        <div class="headword"><h2 id="hw"></h2></div>
+        <p class="def" id="def"></p>
+        <table>
+          <thead><tr><th scope="col">Language</th><th scope="col">Use</th><th scope="col">Avoid</th></tr></thead>
+          <tbody id="rows"></tbody>
+        </table>
+        <p class="src">Source: <span id="src"></span></p>
+      </figure>
+    </div>
+
+    <section id="what">
+      <h3>What each entry gives you</h3>
+      <div class="cols">
+        <div><h4>The term engineers actually use</h4><p>One preferred rendering per language, plus accepted variants and the abbreviation where the industry uses one.</p></div>
+        <div><h4>The renderings to avoid</h4><p>Dictionary calques, false friends and terms for a neighbouring concept, each with a short reason, for 213 terms where the error really occurs. Renderings that give mold opening force for clamping force, or melt volume-flow rate (MVR) for melt mass-flow rate (MFR), are flagged. They carry the TBX deprecated status, which translation tools that read it can show as forbidden terms and flag in your text.</p></div>
+        <div><h4>A source and evidence</h4><p>An English definition written for this termbase, the standard or reference it rests on, and the public documents that show the Japanese translation in use.</p></div>
+      </div>
+      <h4 class="cov-h">Coverage</h4>
+      <ul class="coverage" aria-label="Terms per category">
+        <li><span>Polymers and materials<small lang="ja">樹脂材料</small></span><b>277</b></li>
+        <li><span>Extrusion, blow molding, thermoforming and compression molding<small lang="ja">押出・ブロー・熱成形・圧縮成形</small></span><b>209</b></li>
+        <li><span>Special molding processes<small lang="ja">特殊成形</small></span><b>147</b></li>
+        <li><span>Secondary operations, joining and decoration<small lang="ja">二次加工・接合・加飾</small></span><b>133</b></li>
+        <li><span>Mold design, making and maintenance<small lang="ja">金型設計・製作・保全</small></span><b>127</b></li>
+        <li><span>Quality, testing and analysis<small lang="ja">品質・試験・解析</small></span><b>117</b></li>
+        <li><span>Plant safety, environment and recycling<small lang="ja">工場安全・環境・リサイクル</small></span><b>110</b></li>
+        <li><span>Injection unit<small lang="ja">射出ユニット</small></span><b>102</b></li>
+        <li><span>Mold temperature control, cooling and venting<small lang="ja">金型温調・冷却・ガス抜き</small></span><b>99</b></li>
+        <li><span>Molding conditions and process control<small lang="ja">成形条件・工程管理</small></span><b>96</b></li>
+        <li><span>Material handling, drying and coloring<small lang="ja">材料供給・乾燥・着色</small></span><b>95</b></li>
+        <li><span>Clamping unit and machine<small lang="ja">型締ユニット・成形機</small></span><b>92</b></li>
+        <li><span>Molding defects<small lang="ja">成形不良</small></span><b>89</b></li>
+        <li><span>Mold structure<small lang="ja">金型構造</small></span><b>89</b></li>
+        <li><span>Sprues, runners, gates and hot runners<small lang="ja">スプルー・ランナー・ゲート・ホットランナー</small></span><b>76</b></li>
+        <li><span>Peripherals and automation<small lang="ja">周辺機器・自動化</small></span><b>46</b></li>
+      </ul>
+    </section>
+
+    <section id="verify">
+      <h3>How terms are verified</h3>
+      <p class="intro">No term is included because it sounds right. Each one passes the same checks, and terms that fail any of them are held back for a later update rather than guessed.</p>
+      <ol class="steps">
+        <li><div><b>Sourced headword</b><span>Every English headword is tied to an ISO, IEC or JIS standard, an industry glossary, technical literature or a public catalogue.</span></div></li>
+        <li><div><b>Blind back-translation</b><span>Each translation is translated back to English by a separate pass that has not seen the original, and must return the same concept.</span></div></li>
+        <li><div><b>Definition match</b><span>Each translation is checked against the definition, so a term for a whole machine or mold is not given for a single part, or the reverse.</span></div></li>
+        <li><div><b>Public evidence</b><span>The Japanese translation must appear in a national or international standard, in the published documents of at least two unrelated manufacturers, in an industry-association or public-body publication, or in at least three papers across two or more journals on J-STAGE. Renderings to avoid were reviewed a second time, and any that manufacturers or research institutes actually use for the same concept were removed.</span></div></li>
+      </ol>
+    </section>
+
+    <section id="pricing">
+      <h3>Pricing</h3>
+      <table class="pricing">
+        <tbody>
+          <tr><th scope="row">Sample</th><td class="price">Free</td><td>50 terms in CSV and TBX, for evaluation. Not for commercial use.</td></tr>
+          <tr><th scope="row">Pro</th><td class="price">$299</td><td>The full termbase for one person, with one year of updates. CSV, TBX and JSON. Launch price of $199 for the first 20 buyers.<br><a class="btn primary" style="margin-top:12px" href="https://diffusionworks.gumroad.com/l/plastics-termbase?offer_code=PLASFOUNDING20">Buy Pro — $199 launch price</a></td></tr>
+          <tr><th scope="row">Team</th><td class="price">From $1,000 / year</td><td>For translation companies and documentation teams sharing the termbase inside one organisation: up to 10 named users, with updates released during the subscription (about quarterly). <a href="mailto:diffusionworks014@gmail.com?subject=Team%20licence%20%E2%80%94%20Injection%20Molding%20%26%20Plastics%20Processing%20Termbase">Ask for a quote</a>.</td></tr>
+          <tr><th scope="row">API</th><td class="price">Planned</td><td>Term lookup and batch checking for translation and LLM workflows, priced monthly. Details after launch.</td></tr>
+        </tbody>
+      </table>
+      <p class="note">Purchases are handled by Gumroad as merchant of record, which collects any applicable sales tax or VAT. The full licence can be read before you buy: <a href="../licence/plas/LICENSE.txt">LICENSE.txt</a> (<a href="../licence/plas/LICENSE_ja.txt">日本語訳</a>). The termbase is a reference for professionals; it does not translate documents and is not a substitute for review of safety-critical text.</p>
+    </section>
+
+    <section id="sample">
+      <h3>Try it in your own tools</h3>
+      <p class="intro">The sample has the same structure as the full termbase. Import the TBX into your CAT tool (Trados, memoQ, Phrase and others read TBX; some versions need conversion or attribute mapping) to see preferred and deprecated terms, or open the CSV in a spreadsheet.</p>
+      <ul class="formats">
+        <li><a href="../sample/injection-molding-plastics-sample-50.csv" download>Sample, CSV</a></li>
+        <li><a href="../sample/injection-molding-plastics-sample-50.tbx" download>Sample, TBX (ISO 30042)</a></li>
+        <li><a href="../sample/LICENSE-sample-plas.txt">Sample licence</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>Diffusion Works, Japan. Terminology references for the semiconductor equipment, machine tool, battery manufacturing and plastics processing industries.</p>
+    <p>Contact: <a href="mailto:diffusionworks014@gmail.com">diffusionworks014@gmail.com</a>. Corrections to any term are welcome and are included in the next update.</p>
+    <p>Definitions are original. Standards are cited by number and title only; no standard text is reproduced.</p>
+    <p><a href="../">Semiconductor Equipment Termbase</a> · <a href="../machine-tools-robots/">Machine Tools &amp; Industrial Robots Termbase</a> · <a href="../lithium-ion-battery/">Lithium-ion Battery Manufacturing Termbase</a> · <a href="../licence/plas/LICENSE.txt">Licence</a> · <a href="../licence/plas/LICENSE_ja.txt">使用許諾（日本語訳）</a> · <a href="../licensor.html">Licensor information</a></p>
+  </footer>
+</div>
+
+<script>
+const T=[
+ {
+  "en": "clamping force",
+  "def": "Force with which the clamping unit holds the mold halves closed against the opening force of the cavity pressure; the rated maximum is used to size the machine.",
+  "t": {
+   "ja": "型締力",
+   "zh": "锁模力",
+   "ko": "형체력",
+   "de": "Schließkraft",
+   "es": "fuerza de cierre"
+  },
+  "n": {
+   "ja": "型開力",
+   "zh": "开模力",
+   "ko": "형개력",
+   "de": "Öffnungskraft",
+   "es": "fuerza de apertura"
+  },
+  "s": "ISO 472 Plastics — Vocabulary"
+ },
+ {
+  "en": "mold",
+  "def": "Tool, usually of steel, that contains one or more cavities together with feed, temperature-control and ejection systems, in which the material is shaped and solidified.",
+  "t": {
+   "ja": "金型",
+   "zh": "模具",
+   "ko": "금형",
+   "de": "Formwerkzeug",
+   "es": "molde"
+  },
+  "n": {
+   "ja": "カビ",
+   "zh": "霉菌",
+   "ko": "곰팡이",
+   "de": "Schimmel",
+   "es": "moho"
+  },
+  "s": "ISO 472 (Plastics — Vocabulary)"
+ },
+ {
+  "en": "injection speed",
+  "def": "Set or actual forward speed of the screw during the filling phase, in mm/s, often profiled in stages; it determines the melt flow rate into the cavity.",
+  "t": {
+   "ja": "射出速度",
+   "zh": "注射速度",
+   "ko": "사출 속도",
+   "de": "Einspritzgeschwindigkeit",
+   "es": "velocidad de inyección"
+  },
+  "n": {
+   "ja": "噴射速度",
+   "zh": "喷射速度",
+   "ko": "분사 속도",
+   "de": "",
+   "es": ""
+  },
+  "s": "ISO 294-1 Plastics — Injection moulding of test specimens of thermoplastic materials — Part 1: General principles"
+ },
+ {
+  "en": "weld line",
+  "def": "Line or notch on a molded part where two melt fronts meet and fuse, for example behind a hole or between two gates; it is often visible and mechanically weaker.",
+  "t": {
+   "ja": "ウェルドライン",
+   "zh": "熔接线",
+   "ko": "웰드 라인",
+   "de": "Bindenaht",
+   "es": "línea de soldadura"
+  },
+  "n": {
+   "ja": "溶接線",
+   "zh": "焊缝",
+   "ko": "",
+   "de": "",
+   "es": ""
+  },
+  "s": "ISO 472 Plastics — Vocabulary"
+ },
+ {
+  "en": "melt mass-flow rate",
+  "def": "Mass of thermoplastic melt extruded through a standard die in a plastometer at a specified temperature and load, stated in g/10 min and used as a simple measure of flowability.",
+  "t": {
+   "ja": "メルトマスフローレイト",
+   "zh": "熔体质量流动速率",
+   "ko": "용융 질량 흐름률",
+   "de": "Schmelze-Massefließrate",
+   "es": "índice de fluidez en masa"
+  },
+  "n": {
+   "ja": "メルトボリュームフローレイト",
+   "zh": "熔体体积流动速率",
+   "ko": "",
+   "de": "Schmelze-Volumenfließrate",
+   "es": "índice de fluidez en volumen"
+  },
+  "s": "ISO 1133-1 Plastics — Determination of the melt mass-flow rate (MFR) and melt volume-flow rate (MVR) of thermoplastics — Part 1: Standard method"
+ },
+ {
+  "en": "master sample",
+  "def": "Approved part kept as the reference against which production parts are compared for appearance, color or dimensions.",
+  "t": {
+   "ja": "標準見本",
+   "zh": "标准样件",
+   "ko": "마스터 샘플",
+   "de": "Referenzmuster",
+   "es": "muestra patrón"
+  },
+  "n": {
+   "ja": "限度見本",
+   "zh": "限度样品",
+   "ko": "한도 견본",
+   "de": "Grenzmuster",
+   "es": "muestra límite"
+  },
+  "s": "AIAG Production Part Approval Process (PPAP) reference manual"
+ }
+];
+const L=[["ja","Japanese"],["zh","Chinese"],["ko","Korean"],["de","German"],["es","Spanish"]];
+const pk=document.getElementById("picker");
+function show(i){
+  const x=T[i];
+  document.getElementById("hw").textContent=x.en;
+  document.getElementById("def").textContent=x.def;
+  document.getElementById("src").textContent=x.s;
+  const tb=document.getElementById("rows"); tb.innerHTML="";
+  L.forEach(([k,name])=>{
+    const tr=document.createElement("tr");
+    const th=document.createElement("th"); th.scope="row"; th.textContent=name;
+    const u=document.createElement("td"); u.className="use"; u.lang=k; u.textContent=x.t[k];
+    const a=document.createElement("td"); a.className="avoid"; a.lang=k;
+    if(x.n[k]){const s=document.createElement("s"); s.textContent=x.n[k]; a.appendChild(s);} else {a.textContent="—"; a.style.color="var(--rule)";}
+    tr.append(th,u,a); tb.appendChild(tr);
+  });
+  [...pk.children].forEach((b,j)=>b.setAttribute("aria-pressed",j===i?"true":"false"));
+}
+T.forEach((x,i)=>{const b=document.createElement("button");b.type="button";b.textContent=x.en;b.onclick=()=>show(i);pk.appendChild(b)});
+show(0);
+</script>
+</body>
+</html>
